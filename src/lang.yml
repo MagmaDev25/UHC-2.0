@@ -1,0 +1,4 @@
+messages:
+  prefix: "&2&l[UHC] &7>>> &r"
+  #Placeholders: %name%
+  on-death: "&cEl jugador &b%name% &cha muerto!"
