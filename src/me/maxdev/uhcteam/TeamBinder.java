@@ -2,7 +2,6 @@ package me.maxdev.uhcteam;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 
 public class TeamBinder {
     private Map<String, UhcTeam> teams = new HashMap<>();
@@ -11,7 +10,10 @@ public class TeamBinder {
         teams.put(name, uhcTeam);
     }
 
-    public Optional<UhcTeam> getTeam(String name){
-        return Optional.ofNullable(teams.get(name));
+    public UhcTeam getTeam(String name){
+        return teams.get(name);
+    }
+    public Map<String, UhcTeam> getTeams(){
+        return teams;
     }
 }

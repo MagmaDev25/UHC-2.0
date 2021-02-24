@@ -1,4 +1,13 @@
-main: me.maxdev.UHC
+main: me.maxdev.Uhc
 version: 2.0.0
 api-version: 1.13
 name: UHCByMagma
+commands:
+  createteam:
+    description: "This command creates a team"
+  getteams:
+    description: "This command gets all teams"
+  setsurvival:
+    description: "Sets gm survival for all players"
+  getplayers:
+    description: "Gets all players on a team"

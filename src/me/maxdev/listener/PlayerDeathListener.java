@@ -16,7 +16,7 @@ public class PlayerDeathListener implements Listener {
 
     public PlayerDeathListener(FileBinder fileBinder){
         this.fileBinder = fileBinder;
-        lang = fileBinder.getFile("lang").get();
+        lang = fileBinder.getFile("lang");
     }
 
 
